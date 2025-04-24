@@ -15,9 +15,9 @@ Architecture: Application is split into modules:
 -	Visualization and export (ImageAnalyzer, ExportMetrics)
 UML diagrams:
 Function diagram – classes and their relations
-![Alt text](relative/path/to/image.png)
+![UML diagram functions](img/uml_func.png)  
 User diagram – UI components and their logic
-![Alt text](relative/path/to/image.png)
+![UML diagram UI](img/uml_ui.png)  
 GUI design:
 -	Navigation panel (LOAD -> ANALYSIS -> METRICS -> EXPORT)
 -	Sections: Loading, Analysis, Metrics, Export
