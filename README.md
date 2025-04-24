@@ -60,7 +60,7 @@ Usage:
 Maintenance:
 -	Pull the latest version from GitHub
 (Run: git pull origin main or your current working branch)
--	To add new metrics: Implement a new function in the metrics module, Update the UI to include the new metric, Submit a pull request with detailed repository comments and documentation of the changes
+-	To add new metrics:  Implement a new function in the metrics module,  Update the UI to include the new metric,  Submit a pull request with detailed repository comments and documentation of the changes
 
 
 
