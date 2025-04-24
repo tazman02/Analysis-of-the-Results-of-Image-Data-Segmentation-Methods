@@ -45,25 +45,25 @@ Limits:
 
 # Installation, usage and maintenance
 Installation:
-•	Install supported version of Python, currently 3.12
-•	Run git pull https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods  to fetch the latest version of the project
-•	Install libraries from requirements.txt
+-	Install supported version of Python, currently 3.12
+-	Run git pull https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods  to fetch the latest version of the project
+-	Install libraries from requirements.txt
 (Run: pip install -r requirements.txt)
-•	Run the main Python file from the project directory
+-	Run the main Python file from the project directory
 (Run: python segmentation_app.py)
 Usage:
-•	Load ground truth and prediction datasets
-•	Optional: Set class aliases for clarity in metrics
-•	Run the analysis module to compute evaluation results
-•	View results via the UI or console output
-•	Export computed metrics to desired format (e.g., CSV, JSON)
+-	Load ground truth and prediction datasets
+-	Optional: Set class aliases for clarity in metrics
+-	Run the analysis module to compute evaluation results
+-	View results via the UI or console output
+-	Export computed metrics to desired format (e.g., CSV, JSON)
 Maintenance:
-•	Pull the latest version from GitHub
+-	Pull the latest version from GitHub
 (Run: git pull origin main or your current working branch)
-•	To add new metrics:
-o	Implement a new function in the metrics module
-o	Update the UI to include the new metric
-o	Submit a pull request with detailed repository comments and documentation of the changes
+-	To add new metrics:
+--	Implement a new function in the metrics module
+--	Update the UI to include the new metric
+--	Submit a pull request with detailed repository comments and documentation of the changes
 
 
 
