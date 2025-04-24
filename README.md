@@ -2,11 +2,11 @@
 
 # Specification of the requirements 
 Thesis goal: Develop Python application that can analyze results of image segmentation using selected metrics. Application allows visualization, comparison and export of these metrics.
-Target audience: students, researchers, developers working with image segmentation models
+Target audience: students, researchers, developers working with image segmentation models  
 Requirements:
--	Input: two folders with images (ground truth and prediction)
--	Functionalities: calculation of metrics, visualization of classification (TP, FP, TN, FN), comparison of the results, export into CSV/JSON
--	Other: simple GUI, scalability, expandability
+-	Input: two folders with images (ground truth and prediction)  
+-	Functionalities: calculation of metrics, visualization of classification (TP, FP, TN, FN), comparison of the results, export into CSV/JSON  
+-	Other: simple GUI, scalability, expandability  
 Solution proposal:
 Architecture: Application is split into modules:
 -	Data loading (DirectoryLoader)
