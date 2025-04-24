@@ -1,7 +1,7 @@
 # Analysis-of-the-Results-of-Image-Data-Segmentation-Methods
 
 # Specification of the requirements 
-Thesis goal: Develop Python application that can analyze results of image segmentation using selected metrics. Application allows visualization, comparison and export of these metrics.
+Thesis goal: Develop Python application that can analyze results of image segmentation using selected metrics. Application allows visualization, comparison and export of these metrics.<br>
 Target audience: students, researchers, developers working with image segmentation models  
 Requirements:
 -	Input: two folders with images (ground truth and prediction)  
