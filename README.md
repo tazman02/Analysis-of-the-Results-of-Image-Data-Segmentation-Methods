@@ -45,7 +45,7 @@ Limits:
 
 # Installation, usage and maintenance
 Installation:
--	Install supported version of Python, currently 3.12
+-	Install supported version of Python, currently 3.12 (https://www.python.org/downloads/)
 -	Run git pull https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods  to fetch the latest version of the project
 -	Install libraries from requirements.txt
 (Run: pip install -r requirements.txt)
