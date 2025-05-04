@@ -64,13 +64,13 @@ Maintenance:
 
 
 # Structure of repository
-segmentation_app.py - main Python file, launch to start the application
-testy.ipynb - some of the metrics used in compariston and testing
-out.json - demo of json output
-ico.png = icon used by application
-class_names.json - configuration file with saved class aliases, erase whole file or specific records to delete alias
-lib - folder, includes all other classes that are part of the funcionality of the application
-img - folder for images, contains testing and demo data
-gui - folder, contains all classes that represent gui
+segmentation_app.py - main Python file, launch to start the application  
+testy.ipynb - some of the metrics used in compariston and testing  
+out.json - demo of json output  
+ico.png = icon used by application  
+class_names.json - configuration file with saved class aliases, erase whole file or specific records to delete alias  
+lib - folder, includes all other classes that are part of the funcionality of the application  
+img - folder for images, contains testing and demo data  
+gui - folder, contains all classes that represent gui  
 
 
