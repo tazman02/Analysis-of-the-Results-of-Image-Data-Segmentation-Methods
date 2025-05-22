@@ -77,7 +77,12 @@ class SegmentationApp:
         self.root.geometry("1440x1000")
         self.root.resizable(False, False)
         
-        icon = PhotoImage(file="program\\ico.png")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        icon_path = os.path.join(script_dir, 'ico.png')
+
+        icon = PhotoImage(file=icon_path)
+        
         root.iconphoto(True, icon)
         
         self.current_idx = 0
