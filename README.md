@@ -46,9 +46,9 @@ Limits:
 # Installation, usage and maintenance
 Installation:
 -	Install supported version of Python, currently 3.12 (https://www.python.org/downloads/)
--	Run git pull https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods  to fetch the latest version of the project
+-	Run ![GitHub Stats](git clone https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods)  to fetch the latest version of the project
 -	Install libraries from requirements.txt
-(Run: pip install -r requirements.txt)
+(Run: ![GitHub Stats](pip install -r requirements.txt))
 -	Run the main Python file from the project directory
 (Run: python segmentation_app.py)
 Usage:
@@ -59,7 +59,7 @@ Usage:
 -	Export computed metrics to desired format (e.g., CSV, JSON)
 Maintenance:
 -	Pull the latest version from GitHub
-(Run: git pull origin main or your current working branch)
+(Run: ![GitHub Stats](git pull origin main) or your current working branch)
 -	To add new metrics:  Implement a new function in the metrics module,  Update the UI to include the new metric,  Submit a pull request with detailed repository comments and documentation of the changes
 
 
