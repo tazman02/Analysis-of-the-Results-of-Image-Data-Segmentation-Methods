@@ -3,8 +3,8 @@
 Segmentation Visualization and Evaluation GUI Tool
 ====================================================================================
 
-Author: Matus Guga
-Email: matus.guga@vgd.sk
+Author: Jan Kubis
+Email: kubis.j.002@gmail.com
 File: main.py
 Date: April 2025
 
