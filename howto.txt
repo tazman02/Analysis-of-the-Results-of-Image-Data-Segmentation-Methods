@@ -4,7 +4,7 @@ Install supported version of Python, currently 3.12 (https://www.python.org/down
 Run git clone https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods to fetch the latest version of the project //skip if installing using .zip archive
 Install libraries from requirements.txt (Run: pip install -r requirements.txt)
 Run the main Python file from the project directory (Run: python segmentation_app.py) Usage:
-Load ground truth and prediction datasets
+Load ground truth and prediction datasets (WARNING: Path cannot contain any diacritics, may cause error)
 Optional: Set class aliases for clarity in metrics
 Run the analysis module to compute evaluation results
 View results via the UI or console output
