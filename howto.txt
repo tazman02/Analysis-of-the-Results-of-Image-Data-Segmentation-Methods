@@ -1,4 +1,4 @@
-GitHub repository link: https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods
+GitHub repository with documentation link: https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods
 Installation and usage:
 Install supported version of Python, currently 3.12 (https://www.python.org/downloads/)
 Run git clone https://github.com/tazman02/Analysis-of-the-Results-of-Image-Data-Segmentation-Methods to fetch the latest version of the project //skip if installing using .zip archive
