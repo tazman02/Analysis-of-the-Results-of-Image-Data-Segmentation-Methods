@@ -52,7 +52,7 @@ Installation:
 -	Run the main Python file from the project directory
 (Run: `python segmentation_app.py`)
 Usage:
--	Load ground truth and prediction datasets
+-	Load ground truth and prediction datasets (WARNING: Path cannot contain any diacritics, may cause error)
 -	Optional: Set class aliases for clarity in metrics
 -	Run the analysis module to compute evaluation results
 -	View results via the UI or console output
