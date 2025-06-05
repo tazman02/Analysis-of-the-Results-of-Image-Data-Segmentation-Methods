@@ -3,16 +3,20 @@
 # Specification of the requirements 
 Thesis goal: Develop Python application that can analyze results of image segmentation using selected metrics. Application allows visualization, comparison and export of these metrics.  
 Target audience: students, researchers, developers working with image segmentation models  
+
 Requirements:
 -	Input: two folders with images (ground truth and prediction)  
 -	Functionalities: calculation of metrics, visualization of classification (TP, FP, TN, FN), comparison of the results, export into CSV/JSON  
--	Other: simple GUI, scalability, expandability  
+-	Other: simple GUI, scalability, expandability
+  
 Solution proposal:
+
 Architecture: Application is split into modules:
 -	Data loading (DirectoryLoader)
 -	Class management (ClassManager)
 -	Metric calculation (MetricsCalculator)
 -	Visualization and export (ImageAnalyzer, ExportMetrics)
+
 UML diagrams:
 Function diagram – classes and their relations
 ![UML diagram functions](img/uml_func.png)  
@@ -54,12 +58,14 @@ Installation:
 (Run: `pip install -r requirements.txt`)
 -	Run the main Python file from the project directory
 (Run: `python segmentation_app.py`)
+
 Usage:
 -	Load ground truth and prediction datasets (WARNING: Path cannot contain any diacritics, may cause error)
 -	Optional: Set class aliases for clarity in metrics
 -	Run the analysis module to compute evaluation results
 -	View results via the UI or console output
 -	Export computed metrics to desired format (e.g., CSV, JSON)
+  
 Maintenance:
 -	Pull the latest version from GitHub
 (Run: `git pull origin main` or your current working branch)
