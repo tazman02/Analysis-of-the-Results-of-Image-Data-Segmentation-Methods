@@ -11,7 +11,9 @@ Requirements:
   
 Solution proposal:
 
-Architecture: Application is split into modules:
+Architecture: 
+
+Application is split into modules:
 -	Data loading (DirectoryLoader)
 -	Class management (ClassManager)
 -	Metric calculation (MetricsCalculator)
