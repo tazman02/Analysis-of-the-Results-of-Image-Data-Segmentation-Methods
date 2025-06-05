@@ -5,7 +5,7 @@ Segmentation Visualization and Evaluation GUI Tool
 
 Author: Jan Kubis
 Email: kubis.j.002@gmail.com
-File: main.py
+File: segmentation_app.py
 Date: April 2025
 
 Description:
