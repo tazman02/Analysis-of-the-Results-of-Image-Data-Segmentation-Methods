@@ -35,9 +35,11 @@ Used technologies:
 # Testing and verification of the results
 Data for testing:
 -	Simple synthetic segmentation dataset (ChatGPT)
+
 Comparison with reference values:
 -	Verification of metric values with existing libraries like sklearn and medpy
 -	Table of compared values: majority of metrics are equivalent, some variation explained in thesis
+
 Limits:
 -	Synthetic data results don’t have to apply in all real-world scenarios
 -	Some metrics don’t have publicly accessible implementation
